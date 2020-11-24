@@ -1,0 +1,6 @@
+# depslib dependency file v1.0
+1606192514 source:c:\users\webys\downloads\pim4\pim4\main.c
+	<stdio.h>
+	<string.h>
+	<time.h>
+
