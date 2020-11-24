@@ -10,7 +10,7 @@
 #include <string.h>
 #include <time.h>
 
-int main( int argc, char * argv[] ) {
+int main(void) {
   char usuario[256];
   char senha[32];
 
@@ -132,7 +132,7 @@ int main( int argc, char * argv[] ) {
   // csv separado por |
   fprintf(
     covid,
-    "%s|%d|%d|%s|%d|%s|%s|%s|%d|%s|%s|%s|%s\n",
+    "%s|%s|%s|%s|%s|%s|%s|%s|%s|%s|%s|%s|%s\n",
     nome,
     cpf,
     telefone,
